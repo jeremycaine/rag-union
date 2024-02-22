@@ -23,7 +23,7 @@ and associate the WML instance in Studio | your project | Manage | Service Integ
 ## 1. Project Environment
 In project directory, setup env vars in `.env`
 
-### Ingestion
+### Ingestion
 ```
 ES_URL=https://xxx.xxx.databases.appdomain.cloud:nnnnn
 ES_USER=xxx
@@ -32,7 +32,7 @@ ES_CERT_PATH=cert/rag-union-es-cert
 DOC_FNAME=data/state_of_the_union.txt
 INDEX_NAME=union_speech
 ```
-### Retrieval
+### Retrieval
 Option to change model name and ES index name. Make sure you have the right WML project id.
 ```
 ML_URL= use URL associated with region Studio is deployed e.g. Dallas is https://us-south.ml.cloud.ibm.com
@@ -45,7 +45,8 @@ MODEL_ID_NAME=ibm/granite-13b-chat-v1
 WML_PROJECT_ID=a8e93470-8c18-4b93-b2a3-2c90ef1e5a8d
 INDEX_NAME=union_speech
 ```
-### Python environments
+### Python environments
+
 Create a Python 3.11 environment
 ```
 conda create -n rag-union python=3.11
@@ -79,7 +80,7 @@ curl ...
 ```
 
 ## 4. Testing
-Healtcheck
+Healthcheck
 ```
 curl http://127.0.0.1:8081
 > ready
