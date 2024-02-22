@@ -1,0 +1,5 @@
+pandas
+sentence_transformers
+langchain>=0.0.345
+elasticsearch
+humanize

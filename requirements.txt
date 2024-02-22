@@ -1,0 +1,15 @@
+llama-index
+llama-index-readers-file
+llama-index-vector-stores-postgres
+llama-index-embeddings-huggingface
+llama-index-llms-llama-cpp
+llama-cpp-python
+psycopg2-binary 
+pgvector 
+asyncpg 
+sqlalchemy[asyncio] 
+greenlet
+flask
+sentence_transformers
+ibm-watson-machine-learning>=1.0.327
+langchain>=0.0.345
