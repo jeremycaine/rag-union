@@ -42,7 +42,7 @@ ES_USER=xxx
 ES_PASSWORD=xxx
 ES_CERT_PATH=cert/rag-union-es-cert
 MODEL_ID_NAME=ibm/granite-13b-chat-v1
-WML_PROJECT_ID=a8e93470-8c18-4b93-b2a3-2c90ef1e5a8d
+WML_PROJECT_ID=xxxx
 INDEX_NAME=union_speech
 ```
 ### Python environments
